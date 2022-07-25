@@ -1,0 +1,93 @@
+nav > .nav.nav-tabs {
+  border: none;
+  color: #fff;
+  background: #272e38;
+  border-radius: 0;
+}
+nav > div a.nav-item.nav-link {
+  border: none;
+
+  color: #fff;
+  background: #0d47a1;
+}
+.nav > div a.nav-item.nav-link.active {
+  background: #0d47a1;
+  border-radius: 0;
+}
+
+/*nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  
+}
+*/
+.tab-content {
+  /*background: #000;*/
+  line-height: 25px;
+  color: white;
+  /*border: 1px solid #ddd;
+    border-top:5px solid #e74c3c;
+    border-bottom:5px solid #e74c3c;*/
+  /* padding:30px 25px;*/
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus {
+  border: none;
+  background: #0d47a1;
+  color: #fff;
+  border-radius: 0;
+  transition: background 0.2s linear;
+}
+.mini-menu:hover {
+  background: #0d47a1 !important;
+  color: #fff !important;
+}
+.mini-menu-dark {
+  background: #000 !important;
+  color: #fff !important;
+  border: 1px solid grey;
+}
+@media (min-width: 575px) {
+  .tab-content {
+    background: #000;
+  }
+}
+
+@media (max-width: 575px) {
+  .card-content {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #000;
+    margin-bottom: 5px;
+    padding: 7px;
+  }
+  .account-btn {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #000 !important;
+  }
+}
+.text-footer {
+  color: grey !important;
+}
+.icon-active,
+.text-footer:hover {
+  color: #0d47a1 !important;
+}
+
+@media (min-width: 575px) {
+  .footer-section {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .footer-section {
+    display: block;
+  }
+}
